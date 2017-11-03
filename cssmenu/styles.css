@@ -272,7 +272,7 @@
   }
   #cssmenu .submenu-button {
     position: absolute;
-    z-index: 10 !important;
+    z-index: 10;
     right: 0;
     top: 0;
     display: block;
@@ -290,7 +290,7 @@
     width: 1px;
     height: 11px;
     background: #dddddd;
-    z-index: 99 !important;
+    z-index: 99;
   }
   #cssmenu .submenu-button::before {
     content: '';
@@ -301,7 +301,7 @@
     width: 11px;
     height: 1px;
     background: #dddddd;
-    z-index: 99 !important;
+    z-index: 99;
   }
   #cssmenu .submenu-button.submenu-opened:after {
     display: none;
