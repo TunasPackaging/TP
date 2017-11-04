@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 #cssmenu li:hover > ul {
-z-index: 9 !important;
+z-index: 9999 !important;
 }
 #cssmenu,
 #cssmenu ul,
